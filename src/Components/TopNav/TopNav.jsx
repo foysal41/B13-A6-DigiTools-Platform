@@ -3,7 +3,7 @@ import React from "react";
 const TopNav = () => {
   return (
     <div className="w-full">
-      <div className="w-[1300px] mx-auto">
+      <div className="max-w-[1300px] mx-auto">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <h4 className=" font-bold text-xl bg-linear-to-r from-[#622FF7] to-[#9116FA] bg-clip-text text-transparent">
