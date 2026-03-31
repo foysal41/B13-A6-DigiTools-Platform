@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI-powered templates.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/F4JZttsW/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Kit",
+    "description": "Ready-to-use social media templates for all platforms.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Instagram templates", "Editable design", "Canva support"],
+    "icon": "https://i.ibb.co.com/60mwNySM/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Builder",
+    "description": "Build stunning personal portfolios in minutes.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Custom domains", "Responsive design", "SEO optimized"],
+    "icon": "https://i.ibb.co.com/v6XygKNV/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "E-commerce Toolkit",
+    "description": "Boost your online store with premium tools.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Product templates", "Analytics dashboard", "Sales tracking"],
+    "icon": "https://i.ibb.co.com/pBQ94W3R/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Content Writing AI",
+    "description": "Generate blogs, ads, and content using AI.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Blog generator", "SEO keywords", "Copywriting tools"],
+    "icon": "https://i.ibb.co.com/ksM2rC3h/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Design Tool Pro",
+    "description": "Advanced UI/UX design tools for professionals.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Figma integration", "Design system", "Team collaboration"],
+    "icon": "https://i.ibb.co.com/Tx131DWV/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Startup Kit",
+    "description": "Everything you need to launch your startup.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Pitch deck", "Business plan", "Marketing assets"],
+    "icon": "https://i.ibb.co.com/60mwNySM/operation.png"
+  },
+  {
+    "id": 8,
+    "name": "Video Editing Pack",
+    "description": "Professional video editing templates and presets.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Premiere presets", "Transitions", "4K templates"],
+    "icon": "https://i.ibb.co.com/ksM2rC3h/social-media.png"
+  },
+  {
+    "id": 9,
+    "name": "Analytics Dashboard",
+    "description": "Track performance with powerful analytics tools.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Real-time data", "Custom reports", "Export options"],
+    "icon": "https://i.ibb.co.com/60mwNySM/operation.png"
+  }
+]

@@ -63,8 +63,8 @@ const TopNav = () => {
                   </div>
                 </div>
               </div>
-              <button class="btn rounded-full">Login</button>
-              <button class="btn btn-primary rounded rounded-full">
+              <button className="btn rounded-full">Login</button>
+              <button className="btn btn-primary rounded rounded-full">
                 Primary
               </button>
             </div>
