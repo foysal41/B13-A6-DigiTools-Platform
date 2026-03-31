@@ -4,9 +4,10 @@ import Count from "./Components/Count/Count";
 import Hero from "./Components/Hero/Hero";
 import PremiumToolCard from "./Components/PremiumToolCard/PremiumToolCard";
 import TopNav from "./Components/TopNav/TopNav";
-import Steps from "./Components/Steps/Steps";
+import Pricing from "./Components/Pricing/Pricing";
 
 const productDataPromise = fetch("ProductData.json").then((res) => res.json());
+const pricingDataPromise = fetch("Pricing.json").then((res) => res.json());
 function App() {
   return (
     <>
@@ -19,7 +20,9 @@ function App() {
         ></PremiumToolCard>
       </Suspense>
 
-      <Steps></Steps>
+      <Suspense fallback="Loading">
+        <Pricing pricingDataPromise={pricingDataPromise}></Pricing>
+      </Suspense>
     </>
   );
 }
