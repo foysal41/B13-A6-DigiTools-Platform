@@ -6,6 +6,7 @@ import PremiumToolCard from "./Components/PremiumToolCard/PremiumToolCard";
 import TopNav from "./Components/TopNav/TopNav";
 import Pricing from "./Components/Pricing/Pricing";
 import CTA from "./Components/CTA/CTA";
+import Footer from "./Components/Footer/Footer";
 
 const productDataPromise = fetch("ProductData.json").then((res) => res.json());
 const pricingDataPromise = fetch("Pricing.json").then((res) => res.json());
@@ -26,6 +27,7 @@ function App() {
       </Suspense>
 
       <CTA></CTA>
+      <Footer></Footer>
     </>
   );
 }
