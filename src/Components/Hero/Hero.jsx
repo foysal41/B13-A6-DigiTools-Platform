@@ -6,7 +6,7 @@ import banner from "../../assets/banner.png";
 const Hero = () => {
   return (
     <div className="w-full ">
-      <div className=" max-w-[1300px] mx-auto py-20 px-4">
+      <div className=" max-w-[1300px] mx-auto py-20 px-8">
         <div className="flex flex-col md:flex-col lg:flex-row justify-between items-center gap-4">
           {/* Left side of hero */}
           <div>

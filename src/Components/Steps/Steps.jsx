@@ -7,7 +7,7 @@ import SectionHeader from "../ReusedCompo/SectionHeader";
 const Steps = () => {
   return (
     <div className="bg-[#F9FAFC] w-full">
-      <div className="max-w-[1300px] mx-auto  px-4 py-5">
+      <div className="max-w-[1300px] mx-auto  px-8 py-5">
         <SectionHeader
           title={"Get Started in 3 Steps"}
           subtitle={"Start using premium digital tools in minutes, not hours. "}

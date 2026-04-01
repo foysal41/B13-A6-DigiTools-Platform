@@ -1,9 +1,9 @@
 import React from "react";
 
-const TopNav = () => {
+const TopNav = ({ cart }) => {
   return (
     <div className="w-full">
-      <div className="max-w-[1300px] mx-auto">
+      <div className="max-w-[1300px] mx-auto  px-8 py-5">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <h4 className=" font-bold text-xl bg-linear-to-r from-[#622FF7] to-[#9116FA] bg-clip-text text-transparent">
@@ -59,13 +59,15 @@ const TopNav = () => {
                         d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                       />{" "}
                     </svg>
-                    <span className="badge badge-sm indicator-item">8</span>
+                    <span className="badge badge-sm indicator-item">
+                      {cart.length}
+                    </span>
                   </div>
                 </div>
               </div>
               <button className="btn rounded-full">Login</button>
-              <button className="btn btn-primary rounded rounded-full">
-                Primary
+              <button className="btn btn-primary rounded-full">
+                Get Started
               </button>
             </div>
           </div>

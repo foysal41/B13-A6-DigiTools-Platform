@@ -2,8 +2,8 @@ import React from "react";
 
 const Count = () => {
   return (
-    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
-      <div className="max-w-[1300px] py-[40px] mx-auto px-4">
+    <div className=" max-w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+      <div className="max-w-[1300px]  mx-auto  px-8 py-5">
         {/* Count Container */}
         <div className="flex justify-between items-center">
           {/* First Count */}

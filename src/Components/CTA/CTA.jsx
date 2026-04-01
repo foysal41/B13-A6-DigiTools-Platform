@@ -3,7 +3,7 @@ import React from "react";
 const CTA = () => {
   return (
     <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] mt-25">
-      <div className="max-w-[1300px] py-15 mx-auto px-4">
+      <div className="max-w-[1300px] py-15 mx-auto px-8">
         <h2 className="text-center text-white text-[20px] md:text-[40px] font-bold">
           Ready to Transform Your Workflow?
         </h2>

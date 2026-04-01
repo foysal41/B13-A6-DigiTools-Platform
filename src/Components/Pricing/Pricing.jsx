@@ -6,7 +6,7 @@ const Pricing = ({ pricingDataPromise }) => {
   const allPriceData = use(pricingDataPromise);
   return (
     <div className="bg-[#F9FAFC] w-full">
-      <div className="max-w-[1300px] mx-auto  px-4 py-5">
+      <div className="max-w-[1300px] mx-auto  px-8 py-5">
         <SectionHeader
           title={"Simple, Transparent Pricing"}
           subtitle={
