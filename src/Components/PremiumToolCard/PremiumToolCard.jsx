@@ -1,6 +1,8 @@
 import React, { use, useState } from "react";
 import SectionHeader from "../ReusedCompo/SectionHeader";
 import { FaCheck } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const PremiumToolCard = ({ productDataPromise, cart, setCart }) => {
   const [activeTab, setActiveTab] = useState("products");
@@ -9,20 +11,23 @@ const PremiumToolCard = ({ productDataPromise, cart, setCart }) => {
 
   const handleAddToCart = (product) => {
     setCart([...cart, product]);
+    toast.success("Added to cart!");
   };
 
   const handleDelete = (itemToDelete) => {
     const filteredCart = cart.filter((item) => item.id !== itemToDelete.id);
-
     setCart(filteredCart);
+    toast.error("Product is deleted")
   };
 
   const handleCheckout = () => {
     setCart([]);
+    toast("All Product goes to checkout");
   };
 
   return (
     <div className="w-full">
+      <ToastContainer />;
       <div className="max-w-[1300px] mx-auto px-8py-20">
         <SectionHeader
           title={"Premium Digital Tools"}

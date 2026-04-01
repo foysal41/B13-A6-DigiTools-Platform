@@ -9,6 +9,7 @@ import Pricing from "./Components/Pricing/Pricing";
 import CTA from "./Components/CTA/CTA";
 import Footer from "./Components/Footer/Footer";
 
+
 const productDataPromise = fetch("ProductData.json").then((res) => res.json());
 const pricingDataPromise = fetch("Pricing.json").then((res) => res.json());
 function App() {
@@ -25,13 +26,12 @@ function App() {
           setCart={setCart}
         ></PremiumToolCard>
       </Suspense>
-
       <Suspense fallback="Loading">
         <Pricing pricingDataPromise={pricingDataPromise}></Pricing>
       </Suspense>
-
       <CTA></CTA>
       <Footer></Footer>
+     
     </>
   );
 }
